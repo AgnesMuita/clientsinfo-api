@@ -1,5 +1,5 @@
 # clientsinfo-api
-A sample node js api for creating, getting, and deleting client information. 
+A simple node.js api for creating, getting, and deleting client information, using react.js for client side.
 
 
 ## Download & Build on local
