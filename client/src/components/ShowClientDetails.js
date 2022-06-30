@@ -17,14 +17,14 @@ function  ShowClientDetails(){
       console.log(response.data.data)
       setClient(response.data.data);
     });
-  }, []);
+  }, [newid]);
 
   const onDeleteClick = (id)=> {
     axios
       .delete('http://localhost:5000/api/clients/'+id)
-      // .then(res => {
-      //   alert("deleted successfully")
-      // })
+      .then(res => {
+        console.log(res.status)
+         })
       .catch(err => {
         console.log("Error form ShowClientDetails_deleteClick");
       })
