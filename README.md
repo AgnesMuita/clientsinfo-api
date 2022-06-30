@@ -21,5 +21,5 @@ npm run dev
 
 Open your local browser and verify the clientsinfo-api is working by accessing:     
 `http://localhost:3000/clients/`   
-`http://localhost:3000/createclient`   
+`http://localhost:3000/createclient/`   
 `http://localhost:3000/showclient/1/`   
